@@ -8,6 +8,6 @@ button.onclick = () => {
     if(q2 == 6) score++;
     var q3 = prompt("how many meters are in a hectometer?");
     if(q3 == 100) score++;
-    alert(score/3*10+"%");
+    alert(score/3*100+"%");
 }
 document.body.appendChild(button);
